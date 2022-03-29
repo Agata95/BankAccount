@@ -1,0 +1,22 @@
+Stwórz aplikację dla osób które zapraszają ludzi na wesela. Aplikacja na początku pobiera od użytkownika
+ilość osób zaproszonych na wesele, a następnie prosi o podanie czy jest to zaproszenie
+POJEDYNCZE czy Z_OS_TOWARZYSZACA.
+
+1. Stwórz enum TypZaproszenia o polach:
+    POJEDYNCZE
+    Z_OS_TOWARZYSZACA
+
+2. Enum powinien posiadać pole prywatne 'ileOsob' które dla
+wyboru POJEDYNCZE ma wartosc 1, dla Z_OS_TOWARZYSZACA ma wartosc 2.
+Stwórz getter do tego pola.
+
+3. Stwórz klasę zaproszenie które posiada pola:
+    Imię,
+    Nazwisko,
+    TypZaproszenia
+
+4. Po zaimplementowaniu poproś użytkownika o podanie ilości zaproszeń a następnie wprowadź dla każdego zaproszenia
+jego imie, nazwisko i typ. Przechowaj zaproszenia w tablicy.
+
+5. Po zebraniu informacji stwórz pętlę i zsumuj osoby na zaproszeniach (jeśli jest to zaproszenie z os. towarzyszaca,
+to dodajesz 2, jesli nie, to 1).
