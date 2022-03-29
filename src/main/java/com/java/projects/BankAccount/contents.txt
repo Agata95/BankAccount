@@ -1,0 +1,15 @@
+  1.Utwórz klasę KontoBankowe
+
+  2.Nadaj pola publiczne :
+    •numerKonta: long
+    •stanKonta: int
+
+ 3.Utwórz metody:
+    •wyswietlStanKonta
+    •wplacSrodki
+    •pobierzSrodki
+
+  4.Utwórz 2 obiekty:
+   1.kontoAndrzeja
+   2.kontoBeaty
+   3.Przetestuj przesyłpieniędzy pomiędzy kontami
