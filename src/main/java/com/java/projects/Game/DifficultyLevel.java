@@ -1,6 +1,6 @@
 package com.java.projects.Game;
 
-public enum DifficultLevel {
+public enum DifficultyLevel {
     LOW(1),
     SEMI_MEDIUM(2),
     MEDIUM(3),
@@ -19,7 +19,8 @@ public enum DifficultLevel {
         this.level = level;
     }
 
-    DifficultLevel(int level) {
+    DifficultyLevel(int level) {
         this.level = level;
     }
+
 }
