@@ -1,4 +1,4 @@
-package com.java.projects.Game;
+package com.java.projects.GameLevel;
 
 public enum DifficultyLevel {
     LOW(1),

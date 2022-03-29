@@ -1,4 +1,4 @@
-package com.java.projects.Game;
+package com.java.projects.GameLevel;
 
 public class GameLevel {
     private String name;
