@@ -1,8 +1,8 @@
 package com.java.projects.BankAccount;
 
 public class BankAccount {
-    public long accountNumber;
-    public int accountBalance;
+    private long accountNumber;
+    private int accountBalance;
 
     public BankAccount(long accountNumber, int accountBalance) {
         this.accountNumber = accountNumber;
